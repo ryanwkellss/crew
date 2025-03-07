@@ -1,0 +1,23 @@
+[project]
+name = "github_reader"
+version = "0.1.0"
+description = "github-reader using crewAI"
+authors = [{ name = "Ryan Kell", email = "ryanwkell@gmail.com" }]
+requires-python = ">=3.10,<3.13"
+dependencies = [
+    "crewai[tools]>=0.102.0,<1.0.0"
+]
+
+[project.scripts]
+github_reader = "github_reader.main:run"
+run_crew = "github_reader.main:run"
+train = "github_reader.main:train"
+replay = "github_reader.main:replay"
+test = "github_reader.main:test"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.crewai]
+type = "crew"

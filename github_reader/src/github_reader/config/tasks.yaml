@@ -1,0 +1,27 @@
+performance_review_task:
+  description: >
+    Review the provided code changes for performance issues.
+    Identify any inefficient algorithms, excessive loops, or slow database queries.
+  expected_output: >
+    A markdown report summarizing performance issues and suggested optimizations.
+
+security_review_task:
+  description: >
+    Analyze the code for security vulnerabilities.
+    Look for weak authentication, input validation issues, and other potential risks.
+  expected_output: >
+    A markdown report summarizing security risks and recommendations.
+
+efficiency_review_task:
+  description: >
+    Examine the code for redundancy and inefficiencies.
+    Suggest improvements and cleaner coding approaches.
+  expected_output: >
+    A markdown report detailing redundant code blocks and optimization recommendations.
+
+documentation_review_task:
+  description: >
+    Assess the code documentation and readability.
+    Recommend improvements for comments, docstrings, and formatting.
+  expected_output: >
+    A markdown report with documentation enhancement suggestions.
